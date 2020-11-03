@@ -1,4 +1,21 @@
-﻿using Class1;
+﻿/// Homework 8
+/// File Name: Shootout duel
+/// @author: Dakota Durst
+/// Date: November 1st, 2020
+///
+/// Problem Statement: 
+/// Have 3 individuals duel out in a shootout to see who wins, the one with the lowest accuracy goes first
+///
+///
+/// Overall Plan:
+/// 1) define the 3 indivduals aaron, bob and charlie and set their accuracies to the correct numbers
+/// 2) Have aaron strike first and target the one with the highest accuracy (charlie)
+/// 3) run if statement to see if target dies or not
+/// 4) repeat steps 2 and 3 until 1 person is left
+/// 5) add 1 to number of wins and repeat
+/// 6) repeat steps 1-5 for a new loop where aaron purposefully misses his first shop (making bob shoot at charlie)
+
+using Class1;
 using System;
 
 namespace Part1
